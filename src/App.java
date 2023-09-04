@@ -20,5 +20,14 @@ public class App {
 
         System.out.println("Resten av 10/3 är "+rest1);
         System.out.println("Resten av 9/3 är "+rest2);
+
+        double decimaltal1 = 5.0;
+        double decimaltal2 = 23.41;
+
+        double decimaltal_addtion = decimaltal1+decimaltal2;
+        double decimaltal_subtraktion = decimaltal1-decimaltal2;
+
+        System.out.println("Summan av 5.0+23.41 är "+decimaltal_addtion);
+        System.out.println("Summan av 5.0-23.41 är " +decimaltal_subtraktion);
     }
 }
